@@ -1,0 +1,9 @@
+body {
+	background-color: #E6E6FA;
+} 
+
+.content {
+	max-width: 800px;
+	/*this goes top right bottom left */
+	padding: 30px 0px 30px 100px;
+}
