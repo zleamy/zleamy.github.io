@@ -2,8 +2,25 @@ body {
 	background-color: #E6E6FA;
 } 
 
+p {
+	font-size: 16px;
+	line-height: 20px;
+}
+
 .content {
-	max-width: 800px;
+	max-width: 880px;
 	/*this goes top right bottom left */
 	padding: 30px 0px 30px 100px;
+}
+
+
+/* these are for different screen sizes */
+@media screen and (max-width: 960px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 500px) {
+	.content {
+		padding: 20px;
+	}
 }
