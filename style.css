@@ -1,18 +1,66 @@
+/* general styles */
 body {
-	background-color: #E6E6FA;
-} 
+	margin: 0;
+	padding-bottom: 200px;
+}
 
 p {
 	font-size: 16px;
-	line-height: 20px;
+	line-height: 22px;
 }
 
-.content {
-	max-width: 880px;
-	/*this goes top right bottom left */
-	padding: 30px 0px 30px 100px;
+/* header */
+.cover {
+	background-color: #79CDCD;
+	width: 100%;
+	margin: -60px 0 60px 0;
+	padding: 180px 0 60px 0;
+	height: 350px;
+	background: url(images/cover.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+	margin: 200px 0 0 0;
+	text-align: center;
+}
+
+p.email {
+	color: #fff;
+	text-align: right;
+	margin-right: 18%;
+}
+
+/* main content */
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.entry {
+	border-bottom: 1px solid #d3d3d3;
+	padding: 30px 0 60px 0;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 34px;
+	font-weight: 700;
+	margin: 10px 0 20px 0;
+}
+
+span.date {
+	color: #414141;
+	margin-right: 10px;
+	font-style: italic;
+}
 
 /* these are for different screen sizes */
 @media screen and (max-width: 960px) {
@@ -22,5 +70,9 @@ p {
 @media screen and (max-width: 500px) {
 	.content {
 		padding: 20px;
+	}
+	p.email {
+		text-align: center;
+		margin-right: 0;
 	}
 }
