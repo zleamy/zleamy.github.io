@@ -68,7 +68,7 @@ span.date {
 @media screen and (max-width: 768px) {
 }
 @media screen and (max-width: 500px) {
-	.content {
+	.entry {
 		padding: 20px;
 	}
 	p.email {
